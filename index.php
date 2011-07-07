@@ -143,10 +143,10 @@ function parsaa($input) {
 			"apinanleipäpuut", "eläimet", "hyasintit", "kaupungit", "kielet", "kukat", "laineet", "linnut", "maanjäristykset", "maisemat", "näyt", "posket", "siivet", "sirkat", "säveleet", "tuulet", "tähdet", "vuoret"
 		),
 		"asiani" => array(	
-			"ajatusmaailmani", "elämäni", "kotini", "palloni", "persoonallisuuteni", "runoni", "toivottomuuteni", "tulivuoreni", "tätini", "ystäväni", "äitini"
+			"ajatusmaailmani", "elämäni", "kotini", "palloni", "persoonallisuuteni", "runoni", "toivottomuuteni", "tulivuoreni", "tätini", "ystäväni", "äitini", "kukkani", "onneni"
 		),
 		"asiasi" => array(	
-			"ajatusmaailmasi", "elämäsi", "kotisi", "pallosi", "persoonallisuutesi", "runosi", "toivottomuutesi", "tulivuoresi", "tätisi", "ystäväsi", "äitisi"
+			"ajatusmaailmasi", "elämäsi", "kotisi", "pallosi", "persoonallisuutesi", "runosi", "toivottomuutesi", "tulivuoresi", "tätisi", "ystäväsi", "äitisi", "kukkasi", "onnesi"
 		),
 		"asiansa" => array(	
 			"ajatusmaailmansa", "elämänsä", "kotinsa", "pallonsa", "persoonallisuutensa", "runonsa", "toivottomuutensa", "tulivuorensa", "tätinsä", "ystävänsä", "äitinsä"
@@ -176,13 +176,13 @@ function parsaa($input) {
 			"aurinkoa", "hyvyyttä", "kaasua", "kaipausta", "kauneutta", "laavaa", "luontoa", "lämpöä", "maata", "neuvoa", "niittypolkua", "onnea", "onnea", "rakkautta", "saarta", "sinfoniaa", "sivistystä", "tuhkaa", "tulta", "tunnetta", "tuskaa", "unta", "uraania", "valoa", "voimaa"
 		),
 		"asioita" => array(	
-			"aiheita", "aseita", "fantasioita", "ihmisiä", "kanoja", "kaupunkeja", "kirjoituksia", "maita", "runohelmiä", "runoja", "sotia", "teitä", "terveisiä", "unelmia"
+			"aiheita", "aseita", "fantasioita", "ihmisiä", "kanoja", "kaupunkeja", "kirjoituksia", "maita", "runohelmiä", "runoja", "sotia", "teitä", "terveisiä", "unelmia", "kukkia"
 		),
 		"asiana" => array(	
 			"ihmisenä", "kirjailijana", "lapsena"
 		),
 		"asiaksi" => array(
-			"etanaksi", "kahvipannuksi", "kirjailijaksi", "käeksi", "labyrintiksi", "mandoliiniksi", "muistoksi", "pikkupojaksi", "päivänkakkaraksi", "rakkaudeksi", "rouvaksi", "runoilijattareksi", "sammakoksi", "sieluksi", "suomeksi", "tyttöseksi"
+			"etanaksi", "kahvipannuksi", "kirjailijaksi", "käeksi", "labyrintiksi", "mandoliiniksi", "muistoksi", "pikkupojaksi", "päivänkakkaraksi", "rakkaudeksi", "rouvaksi", "runoilijattareksi", "sammakoksi", "sieluksi", "suomeksi", "tyttöseksi", "kukaksi", "onneksi"
 		),
 		"asiassa" => array(
 			"[paikassa]", "[yleisnimessä]"
@@ -200,7 +200,7 @@ function parsaa($input) {
 			"kädestä", "labyrintista", "lähteestä", "mandoliinista", "merestä", "perästä", "sielusta", "tädistä", "vieraskirjasta"
 		),
 		"asiastaan" => array(	
-			"kädestään", "labyrintistaan", "lähteestään", "mandoliinistaan", "merestään", "perästään", "sielustaan", "tädistään", "vieraskirjastaan"
+			"kädestään", "labyrintistaan", "lähteestään", "mandoliinistaan", "merestään", "perästään", "sielustaan", "tädistään", "vieraskirjastaan", "onnestaan"
 		),
 		"asiastansa" => array(	
 			"kädestänsä", "mandoliinistansa", "perästänsä", "taskustansa", "vieraskirjastansa"
@@ -218,10 +218,10 @@ function parsaa($input) {
 			"ajatusmaailmaan", "aurinkoon", "hellaan", "järveen", "kuuhun", "labyrinttiin", "laivaan", "maahan", "mandoliiniin", "metsään", "persoonallisuuteen", "päähän", "rantaan", "selkään", "tummuuteen", "tähteen", "tätiin", "vieraskirjaan", "äitiin"
 		),
 		"asiaani" => array(	
-			"ajatusmaailmaani", "elämääni", "ikävääni", "vieraskirjaani", "ystävääni"
+			"ajatusmaailmaani", "elämääni", "ikävääni", "vieraskirjaani", "ystävääni", "onneani"
 		),
 		"asiaansa" => array(	
-			"ajatusmaailmaansa", "aurinkoonsa", "hellaansa", "kuuhunsa", "labyrinttiinsa", "mandoliiniinsa", "palloonsa", "persoonallisuuteensa", "päähänsä", "tätiinsä", "Ufoonsa", "unenprinssiinsä", "vieraskirjaansa", "äitiinsä"
+			"ajatusmaailmaansa", "aurinkoonsa", "hellaansa", "kuuhunsa", "labyrinttiinsa", "mandoliiniinsa", "palloonsa", "persoonallisuuteensa", "päähänsä", "tätiinsä", "Ufoonsa", "unenprinssiinsä", "vieraskirjaansa", "äitiinsä", "kukkaansa"
 		),
 		"asiaanne" => array(	
 			"ajatusmaailmaanne", "aurinkoonne", "hellaanne", "järveenne", "kuuhunne", "labyrinttiinne", "laivaanne", "maahanne", "mandoliiniinne", "metsäänne", "päähänne", "rantaanne", "selkäänne", "tummuuteenne", "tyyliinne", "tähteenne", "tätiinne", "Ufoonne", "unenprinssiinne", "vieraskirjaanne", "äitiinne"
